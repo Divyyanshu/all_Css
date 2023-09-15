@@ -1,0 +1,71 @@
+/* *{
+    margin: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* div , button{
+    height: 20px;
+    border-width: 2px;
+    border-color: rgb(0, 75, 166);
+    border-style: dotted;
+    height: 22px;
+    width: 10%;
+    padding: 17px;
+    margin: 10px;
+} */
+
+/* h1 {
+    border-width: 10px;
+    border-color: rgb(9, 9, 9);
+    border-style: dashed;
+    border-radius: 8px;
+    border: 15px dashed black,;
+    width: 153px;
+    height: 39px;
+    text-transform: uppercase;
+    background-color: aqua;
+    padding: 12px;
+    border-radius: 95px;
+    border-spacing: 10px;
+} */
+
+
+/* 1.practice set 2 question 1. */
+/* *{
+    margin: 20%;
+    font-family: 'Times New Roman', Times, serif;
+}
+div{
+    
+    height: 500px;
+    width: 500px;
+    background-color: green;
+    border-radius: 50%;
+    border-color: black;
+    border-width: 5px;
+    border-style: double;
+} */
+
+/* question . 2 navbar design  */
+
+*{
+    padding: 0px;
+    margin: 0px;
+    color: white;
+}
+#navbar{
+    height: 60px;
+    background-color: #0f1111;
+    display: flex;
+}
+#logo{
+    font-size: 25px;
+    color: #f08804;
+}
+button{
+    background-color: #f08804;
+
+}
+a{
+    margin-right: 200px;
+    margin-top: 20px;
+}
