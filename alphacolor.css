@@ -1,0 +1,32 @@
+*{
+    padding:25px;
+    margin: 0px;
+}
+div{
+    height: 100px;
+    width: 100px;
+    display: inline;
+    /* padding: 20px;
+    margin: 20px; */
+}
+#box1{
+       background-color: rgba(255,0,0,0.5);
+       border-radius: 50%;
+       border-width: 2px;
+       border-color: black;
+       border-style: dashed;
+   }
+   #box2{
+    background-color: rgba(0,255,0,0.5);
+    border-radius: 50%;
+    border-width: 2px;
+    border-color: black;
+    border-style: dashed;
+}
+#box3{
+    background-color: rgba(0,0,255,0.5);
+     border-radius: 50%;
+    border-width: 2px;
+    border-color: black;
+    border-style: dashed;
+}
