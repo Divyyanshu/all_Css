@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(214, 214, 214);
+}
+.container{
+    margin: 160px 0 0 200px;
+}
+.row{
+    width: 100%;
+    height: 60px;
+}
+.one,.two,.three,.fourth,.fifth{
+    margin: 10px 0 0 0;
+}
+button{
+    color: black;
+    width: 55px;
+    height: 55px;
+    box-shadow: 5px 5px 10px #474343 , -5px -5px 10px #fff;
+    background-color: rgb(214, 214, 214);
+    font-size: 20px;
+    margin-left: 5px;
+     outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 15px;
+}
+button:active{
+    box-shadow: 1px 1px 2px #fff8ff , -1px -1px -2px #474343;
+
+}
+.backtab{
+    height: 55px;
+    width: 113px;
+}
+.tab{
+    height: 55px;
+    width: 75px;
+}
+.cap{
+    height: 55px;
+    width: 150px;
+}
+.enter{
+    height: 55px;
+    width: 100px;
+}
+.shift{
+    height: 55px;
+    width: 100px;
+}
+.space{
+    height: 55px;
+    width: 250px;
+}
+.game{
+    height: 55px;
+    width: 60px;
+}
