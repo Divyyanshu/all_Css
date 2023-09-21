@@ -1,0 +1,44 @@
+*{
+    margin: 20px;
+}
+
+div{
+    height: 100px;
+    width: 100px;
+    background-color: rgba(125,255,88,0.5);
+    border: 2px solid black;
+    display: inline-block;
+    text-align: center;
+    font-size: 38px;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+#box1{
+    position: relative;
+    top: 10px;
+    bottom: 80px;
+}
+/* navebar  */
+#box5{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+/* stickey iamge navbar etc */
+#box3{
+    width: 50%;
+    height: 400px;
+    position: sticky;
+    top: 0px;
+    background-color: #50575F;
+}
+#box2{
+    width: 100%;
+    height: 400px;
+    position: sticky;
+    top: 50px;
+    background-color:rgb(253,108,41);
+}

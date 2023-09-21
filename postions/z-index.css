@@ -1,0 +1,11 @@
+div{
+    height: 200px;
+    width: 100%;
+    border: 1px solid rgb(183, 16, 16);
+    background-image: url('../images/1background.jpg');
+    background-size: cover;
+    position: fixed;
+    right: 0;
+    top: 0;
+    background-blend-mode: lighten
+}
