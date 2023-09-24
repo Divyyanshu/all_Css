@@ -1,0 +1,29 @@
+div{
+    height: 300px;
+    width: 300px;
+    background-color: blueviolet;
+    /* transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: cubic-bezier(.29, 1.01, 1, -0.68);
+    transition-delay: 2s; */
+    transition: all 2s ease-in;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+@media (min-width : 100px) and (max-width : 600px){
+    div{
+        background-color: rgb(8, 226, 230);
+        height: 800px;
+    }
+}
+div:hover{
+    background-color: red;
+    color: aliceblue;
+    transform: skew(40deg);
+}
+div:active{
+    background-color: green;
+    color: aliceblue;
+}
