@@ -107,6 +107,8 @@ p {
   height: 255px;
   width: 300px;
   background-color: white;
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
 }
 .container-num {
   display: flex;
