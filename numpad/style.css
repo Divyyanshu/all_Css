@@ -1,0 +1,50 @@
+body {
+  margin-top: 10%;
+}
+.container {
+  display: flex;
+  gap: 0px;
+  padding: 4px;
+  justify-content: center;
+  align-items: center;
+}
+/* psudo class */
+.effect:hover {
+  font-family: "Dancing Script", cursive;
+  font-family: "Nunito", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+.number0 {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  height: 70px;
+  width: 75px;
+}
+.number1 {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  height: 70px;
+  width: 75px;
+}
+.number2 {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  height: 70px;
+  width: 75px;
+}
+.number3 {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  height: 70px;
+  width: 75px;
+}
+p {
+  font-size: 10px;
+  font-weight: 200;
+  color: grey;
+  margin-top: 0px;
+}
