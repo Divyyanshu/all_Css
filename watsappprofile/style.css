@@ -11,10 +11,33 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: black;
+    font-family: 'Raleway', sans-serif;
 }
 .panel{
     height: 670px;
-    width: 294px;
+    width: 285px;
     border: 3px solid rgb(94, 93, 93);
     border-radius: 12px;
+    background-color: aliceblue;
+}
+.network-bar{
+    height: 20px;
+    width: 285px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(18,140,126);
+}
+.right-side{
+    display: flex;
+    justify-content:end;
+    align-items: center;
+    padding-left: 5px;
+}
+.left-side{
+    display: flex;
+    justify-content:start;
+    align-items: center;
 }
