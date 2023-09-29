@@ -1,0 +1,97 @@
+body {
+  font-family: "Oxygen", sans-serif;
+  background-color: rgb(240, 242, 245);
+}
+.main {
+  width: 1250px;
+  height: 750px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.right-side img {
+  height: 106px;
+  width: 320px;
+  margin: -28px;
+}
+p {
+    font-size: 25px;
+    line-height: 13px;
+    font-weight: 200;
+    color: rgb(28, 30, 33);
+}
+.left-side {
+  height: 450px;
+  width: 395px;
+}
+.border:hover {
+  border: 0.1px solid rgb(24, 119, 242);
+}
+.card-section {
+  height: 370px;
+  width: 395px;
+  padding: 10px 20px 10px 20px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.05);
+}
+.email {
+  height: 25px;
+  width: 350px;
+  border: 0.2px solid rgb(221, 223, 226);
+  padding: 14px 16px;
+  border-radius: 10px;
+  font-size: 16px;
+  color: rgb(221, 223, 226);
+}
+.password-box {
+  height: 25px;
+  width: 350px;
+  border: 0.2px solid rgb(221, 223, 226);
+  padding: 14px 16px;
+  border-radius: 10px;
+  font-size: 16px;
+  color: rgb(221, 223, 226);
+}
+.btn {
+  background-color: #1877f2;
+  border: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 550;
+  border-radius: 6px;
+  font-size: 20px;
+  line-height: 48px;
+  padding: 0 16px;
+  width: 332px;
+  margin-top: 10px;
+}
+p a {
+  font-size: 14px;
+  color: rgb(24, 119, 242);
+}
+.btn-create-acc {
+  height: 55px;
+  width: 192px;
+  border-radius: 12px;
+  color: white;
+  font-size: 17px;
+  font-weight: 550;
+  background-color: rgb(66, 183, 42);
+  border: none;
+  padding: 10px;
+}
+.end-line {
+  margin-top: 15px;
+  font-size: 14px;
+  text-align: center;
+}
+.end-line a {
+  font-weight: 600;
+}
