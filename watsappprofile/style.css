@@ -34,6 +34,7 @@ body {
 .tower-icon {
   padding-right: 10px;
 }
+
 /* settings */
 .setting-panel {
   height: 50px;
@@ -50,6 +51,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: 520;
 }
+
 /* cirle-avatr desgin */
 .profile {
   height: 80px;
@@ -82,12 +84,19 @@ p {
   color: rgb(18, 140, 126);
   font-size: 18px;
 }
+
 /* content section */
+.scroll-main{
+  overflow-y: scroll;
+  height: 480px;
+}
 .content-panel {
-  height: 60px;
-  width: 300px;
+  /* height: 60px; */
+  max-width: 100%;
   display: flex;
-  justify-content: space-evenly;
+  /* justify-content: space-evenly; */
+  padding: 15px;
+  gap: 15px;
   align-items: center;
   margin-top: 10px;
 }
@@ -97,11 +106,12 @@ p {
 }
 .list-name {
   font-size: 14px;
-  margin-right: 65px;
+  /* margin-right: 65px; */
 }
+
 /* mobile end */
 .end-panel{
-    height: 30px;
+    height: 40px;
     width: 300px;
     background-color: rgb(246,246,246);
     border-bottom-left-radius: 9px;
