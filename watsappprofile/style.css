@@ -57,8 +57,8 @@ body {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  border-bottom: 0.01px solid rgba(104, 125, 139, 0.344);
-  margin-top: 5px;
+  border-bottom: 0.01px solid rgba(104, 125, 139, 0.469);
+  margin-top: 4px;
 }
 img {
   height: 62px;
@@ -80,7 +80,7 @@ p {
 }
 .profile-Qr {
   color: rgb(18, 140, 126);
-  font-size: 14px;
+  font-size: 18px;
 }
 /* content section */
 .content-panel {
@@ -103,6 +103,7 @@ p {
 .end-panel{
     height: 30px;
     width: 300px;
+    background-color: rgb(246,246,246);
     border-bottom-left-radius: 9px;
     border-bottom-right-radius: 9px;
     display: flex;
