@@ -39,7 +39,43 @@ body {
   font-size: 18px;
 }
 .text-notify {
-  padding-right: 160px;
+  padding-right: 100px;
 }
-
 /* main- top-section design */
+.tone-section{
+  max-width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 60px;
+  border-bottom: 0.12px solid rgb(81, 81, 81);
+}
+.tone-text{
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: ; */
+  align-items: center;
+  padding-right: 90px;
+}
+.para{
+  color: grey;
+  font-size: 10px;
+  font-weight: 200;
+  margin: 0px;
+}
+.tone-icon{
+  font-size: 35px;
+  color: rgba(128, 128, 128, 0.843);
+}
+.messages-main-section{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: ; */
+  align-items: center;
+  padding-right: 90px;
+}
+h6{
+  margin-top: 10px;
+  margin-left: 12px;
+}
