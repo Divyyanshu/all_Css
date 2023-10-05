@@ -1,0 +1,45 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Rubik", sans-serif;
+}
+.mobile-panel {
+  height: 650px;
+  width: 300px;
+  border: 3px solid black;
+  border-radius: 12px;
+}
+/* first panel design */
+.network-panel {
+  height: 24px;
+  width: 300px;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 12px;
+  background-color: rgb(18, 140, 126);
+  color: white;
+}
+/* set icon network panel */
+.notify-icon {
+  padding-right: 140px;
+}
+/* design notification-top -panel */
+.top-notification-panel {
+  height: 50px;
+  width: 300px;
+  background-color: rgb(18, 140, 126);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+  font-size: 18px;
+}
+.text-notify {
+  padding-right: 160px;
+}
+
+/* main- top-section design */
